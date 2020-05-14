@@ -54,6 +54,46 @@
                 "description": "an invalid date string",
                 "data": "06/19/1963",
                 "valid": false
+            },
+            {
+                "description": "a valid date string, end of year",
+                "data": "2020-12-31",
+                "valid": true
+            },
+            {
+                "description": "a valid date string, first day of year",
+                "data": "2020-12-31",
+                "valid": true
+            },
+            {
+                "description": "a valid date string, leap day",
+                "data": "2020-02-29",
+                "valid": true
+            },
+            {
+                "description": "a valid date string, leap day",
+                "data": "2000-02-29",
+                "valid": true
+            },
+            {
+                "description": "a valid date string, leap day",
+                "data": "2400-02-29",
+                "valid": true
+            },
+            {
+                "description": "an invalid date string, non-leap day",
+                "data": "2021-02-29",
+                "valid": false
+            },
+            {
+                "description": "an invalid date string, non-leap day",
+                "data": "1900-02-29",
+                "valid": false
+            },
+            {
+                "description": "an invalid date string, non-leap day",
+                "data": "2100-02-29",
+                "valid": false
             }
         ]
     },
