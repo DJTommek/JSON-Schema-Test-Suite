@@ -94,6 +94,21 @@
                 "description": "an invalid date string, non-leap day",
                 "data": "2100-02-29",
                 "valid": false
+            },
+            {
+                "description": "an invalid date string, bad month format",
+                "data": "2020-5-05",
+                "valid": false
+            },
+            {
+                "description": "an invalid date string, bad day format",
+                "data": "2020-05-5",
+                "valid": false
+            },
+            {
+                "description": "an invalid date string, bad month and day format",
+                "data": "2020-5-5",
+                "valid": false
             }
         ]
     },
